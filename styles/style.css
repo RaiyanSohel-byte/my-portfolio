@@ -1,5 +1,23 @@
+/* fonts */
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* universal styles */
 *{
-    font-family:sans-serif;
     margin:0;
 }
 /* nav styles */
@@ -88,7 +106,7 @@ ul li a{
     
 }
 li:hover{
-    background: linear-gradient(135deg, rgb(222, 138, 11), rgb(180, 90, 0));
+    background: linear-gradient(135deg, #de8a0b, rgb(180, 90, 0));
     padding:5px;
     border-radius:5px;
 }
@@ -96,4 +114,54 @@ button:hover {
   background: linear-gradient(135deg, #f5c842, #ffffff);
   cursor:pointer;
   color:black;
+}
+h3:hover{
+    cursor:pointer;
+}
+/* about section style */
+
+.about-title-description{
+    text-align: center;
+}
+.designation-text-title{
+    display:flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color:rgba(117, 117, 117, 1);
+    font-weight:400px;
+    padding-bottom:30px;
+}
+.designation-text{
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.about{
+   background: linear-gradient(135deg, #ffffff, #f5f5f5, #eeeeee);
+
+
+     max-width:900px;
+    
+    margin-left:270px;
+    margin-top:50px;
+    margin-bottom:50px;
+    border:3px none black;
+    border-radius:15px;
+    padding:100px 50px 50px 50px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+.title {
+    padding-bottom:30px;
+
+}
+.description{
+    padding-bottom:30px;
+    font-size:18px;
+    font-weight:400px;
+    color:rgba(117, 117, 117, 1);
 }
